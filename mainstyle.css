@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.multimedia{
+    display: flex;
+    list-style: none;
+    /* padding:1rem; */
+}
+.multimedia li{
+    padding: 0.8rem;
+}
+.location{
+    display: flex;
+    
+}

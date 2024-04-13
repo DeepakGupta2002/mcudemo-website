@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hello{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: aliceblue;
+            
+            
+        }
+        .hello li{
+            list-style: none;
+            position: relative;
+
+        }
+        
+        .dropdown{
+            background-color: blue;
+            color: aliceblue;
+            position: absolute;
+        }
+        .dropdown li{
+            list-style: none;
+            display: none;
+        }
+        .hello li:hover .dropdown li{
+            display: block;
+        }
+        .dropdown2{
+            background-color: blue;
+            color: aliceblue;
+            position: absolute;
+        }
+        .dropdown2 li{
+            list-style: none;
+            display: none;
+        }
+        .hello li:hover .dropdown2 li{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="hello">
+        <li>Home</li>
+        <li>about
+            <ul class="dropdown">
+                <li>1.</li>
+                <li>2.</li>
+                <li>3.</li>
+                <li>4.</li>
+            </ul>
+        </li>
+        <li>contact
+            <ul class="dropdown2">
+                <li>1.</li>
+                <li>2.</li>
+                <li>3.</li>
+                <li>4.</li>
+            </ul>
+        </li>
+        <li>account</li>
+        <li>hello</li>
+    </ul>
+</body>
+</html>
